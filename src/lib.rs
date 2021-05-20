@@ -4,7 +4,7 @@ pub mod front_of_house;
 mod tests {
 
     use super::front_of_house::hosting::seat_at_table;
-    use super::front_of_house::hosting::leave_restaurent;
+    use super::front_of_house::hosting::leave_restaurant;
     use super::front_of_house::hosting::add_to_waitlist;
     use super::front_of_house::serving::serving;
 
@@ -15,7 +15,7 @@ mod tests {
 
     #[test]
     fn test_leave_restaurent() {
-        assert_eq!(leave_restaurent::leave_restaurent(), "leave_restaurent");
+        assert_eq!(leave_restaurant::leave_restaurant(), "leave_restaurant");
     }
 
     #[test]
