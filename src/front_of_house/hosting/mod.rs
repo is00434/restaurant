@@ -1,3 +1,3 @@
-pub mod add_to_waitlist;
-pub mod seat_at_table;
-pub mod leave_restaurant;
+pub mod waitlist;
+pub mod table;
+pub mod restaurant;
